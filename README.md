@@ -6,7 +6,7 @@ This repository contains advanced Python scripts designed to process, analyze, a
 
 ## Key Modules & Features
 
-### 1. Surface Pollutant Distribution & Wind Field Animation (`atm-1.gif`)
+### 1. Surface Pollutant Distribution & Wind Field Animation (`atm-2.gif`)
 * **Spatial Mapping:** Utilizes Cartopy (`PlateCarree` projection) to plot high-resolution topography, coastlines, and grid coordinates.
 * **Dynamic Quiver Vectors:** Overlays horizontal wind vectors ($u, v$) sampled at surface terrain indices, combined with custom contour colormaps (`ListedColormap` with `BoundaryNorm`) for nitrogen oxides ($NO_x$).
 * **Temporal Evolution:** Implements `matplotlib.animation.FuncAnimation` to generate time-series GIF animations tracking hourly pollutant accumulation and transport.
