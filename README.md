@@ -11,6 +11,8 @@ This repository contains advanced Python scripts designed to process, analyze, a
 * **Dynamic Quiver Vectors:** Overlays horizontal wind vectors ($u, v$) sampled at surface terrain indices, combined with custom contour colormaps (`ListedColormap` with `BoundaryNorm`) for nitrogen oxides ($NO_x$).
 * **Temporal Evolution:** Implements `matplotlib.animation.FuncAnimation` to generate time-series GIF animations tracking hourly pollutant accumulation and transport.
 
+![Air Quality Animation](atm-2.gif)
+
 ### 2. Vertical Cross-Section & Planetary Boundary Layer (PBL) Diagnosis
 * **Cross-Sectional Slicing:** Extracts latitude-longitude slices across specific urban/geographical transects (e.g., Taichung/Taiping regions).
 * **PBL Height Estimation:** Computes potential temperature ($\theta$) profiles to diagnose the boundary layer top using the standard threshold method ($\theta \ge \min(\theta) + 0.5\text{ K}$).
